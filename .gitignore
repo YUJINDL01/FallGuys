@@ -71,3 +71,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.meta
+
+*.zip
+
+# FallGuysAssetStudio 폴더 무시 (Assets 폴더와 같은 레벨)
+/FallGuysAssetStudio/
+
+# FallGuysAssetStudio 안의 모든 파일 추적 중단
+git rm --cached -r FallGuysAssetStudio/
+/FallGuysAssetStudio
+/FallGuysAssetStudio/Animator
