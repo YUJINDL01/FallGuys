@@ -82,3 +82,5 @@ crashlytics-build.properties
 git rm --cached -r FallGuysAssetStudio/
 /FallGuysAssetStudio
 /FallGuysAssetStudio/Animator
+
+Assets/FallGuysAssetStudio/**
